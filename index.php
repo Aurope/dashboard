@@ -55,6 +55,8 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                                 <li><a target="_blank" href="http://<?php echo ($D['hostip']); ?>/nextcloud">Aurope's Private Cloud</a></li>
                                 <li><a target="_blank" href="http://<?php echo ($D['hostip']); ?>:1111">Visual Studio Code</a></li>
                                 <li><a target="_blank" href="http://<?php echo ($D['hostip']); ?>/phpmyadmin">phpMyAdmin</a></li>
+                                <li><a target="_blank" href="http://<?php echo ($D['hostip']); ?>/typecho">Typecho</a></li>
+                                <li><a target="_blank" href="http://<?php echo ($D['hostip']); ?>/typecho/admin/login.php">Typecho Admin</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -71,8 +73,10 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                             <div id="pimodel" style="font-size: 90%; font-weight: bolder; text-shadow: 0 1px 0 #fff;"><?php echo ($D['model']['pimodel']); ?></div>
                         </div>
                         <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#D6264F; border-radius: 3px;">
+                            <a target="_blank" href="http://<?php echo ($D['hostip']); ?>/typecho">
                             <div class="label" style="color:#FFFFFF; font-size: 180%; font-weight: bolder;">❤</div>
                             <div id="loveDuration" style="color:#FFFFFF; font-size: 120%; font-weight: bolder;">0</div>
+                            </a>
                         </div>
                         <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#CEFCA3; border-radius: 3px;">
                             <div class="label">IP</div>
