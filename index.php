@@ -48,7 +48,6 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                     <ul class="nav navbar-nav navbar-right">
                         <li><a target="_blank" href="https://www.baidu.com">Baidu</a></li>
                         <li><a target="_blank" href="https://www.iqiyi.com">iqiyi</a></li>
-                        <li><a target="_blank" href="https://mail.qq.com">QQ Mail</a></li>
                         <li><a target="_blank" href="https://mail.ynu.edu.cn">YNU Mail</a></li>
                         <li><a target="_blank" href="https://steamdb.info/upcoming/free">Free Promotions on Steam</a></li>
                         <li><a target="_blank" href="https://www.runoob.com">Runoob</a></li>
