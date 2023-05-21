@@ -70,9 +70,9 @@ require_once(dirname(__FILE__) . DIRECTORY_SEPARATOR . 'device.php');
                         <div class="text-center" style="margin:10px; padding: 10px 0 10px 0; border-radius: 3px;">
                             <div id="pimodel" style="font-size: 90%; font-weight: bolder; text-shadow: 0 1px 0 #fff;"><?php echo ($D['model']['pimodel']); ?></div>
                         </div>
-                        <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#FFFECD; border-radius: 3px;">
-                            <div class="label">LOVE DURATION</div>
-                            <div id="loveDuration" style="font-size: 120%; font-weight: bolder;">0</div>
+                        <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#D6264F; border-radius: 3px;">
+                            <div class="label" style="color:#FFFFFF; font-size: 180%; font-weight: bolder;">❤</div>
+                            <div id="loveDuration" style="color:#FFFFFF; font-size: 120%; font-weight: bolder;">0</div>
                         </div>
                         <div class="text-center" style="margin:20px; padding: 10px 0 10px 0; background-color:#CEFCA3; border-radius: 3px;">
                             <div class="label">IP</div>

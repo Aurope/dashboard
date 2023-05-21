@@ -457,7 +457,7 @@ function uptimeFormat(str) {
 }
 
 function loveDuration() {
-    var loveDuration = ""
+    var loveDuration = "";
     var BigDay = new Date("2023-01-10 22:00:00");
     var currentDate = new Date();
     var interval = currentDate - BigDay;
