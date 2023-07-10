@@ -464,10 +464,10 @@ function loveDuration() {
 
     interval /= 1000;
 
-    var day = Math.round(interval / 60 / 60 / 24);
-    var hour = Math.round(interval / 60 / 60 % 24);
-    var minute = Math.round(interval / 60 % 60);
-    var second = Math.round(interval % 60);
+    var day = Math.floor(interval / 60 / 60 / 24);
+    var hour = Math.floor(interval / 60 / 60 % 24);
+    var minute = Math.floor(Math.round(interval / 60 % 60));
+    var second = Math.floor(interval % 60);
 
     if (day !== 0) {
         if (day === 1) {
